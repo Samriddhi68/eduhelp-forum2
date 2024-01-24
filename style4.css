@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  
+  
+  #materials-container {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .material-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 300px;
+    overflow: hidden;
+  }
+  
+  .material-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  #upload-form {
+    margin: 20px;
+  }
+  
+  #file-input {
+    display: none; }
+  
+  #upload-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #upload-btn:hover {
+    background-color: #45a049;
+  }
+  
+  
+   
