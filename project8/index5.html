@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doubts Section</title>
+  <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+
+  <div id="doubt-form-container">
+    <h2>Ask a Doubt</h2>
+    <form id="doubt-form">
+      <textarea id="doubt-text" placeholder="Type your doubt here"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div id="doubts-list">
+    <h2>Doubts & Replies</h2>
+  </div>
+
+  <div id="answer-form-container" style="display: none;">
+    <h2>Answer a Doubt</h2>
+    <form id="answer-form">
+      <input type="hidden" id="selected-doubt-id" value="">
+      <textarea id="answer-text" placeholder="Type your answer here"></textarea>
+      <button type="submit">Submit Answer</button>
+    </form>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-firestore.js"></script>
+  <script src="script.js"></script>
+</body>
